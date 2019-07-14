@@ -125,3 +125,11 @@ shifted by one bit (i.e. 7-bit slave address is `0x2F` -> `(0x2F)<<1` = `0x5E`)
 ##### void I2C_stop(void)
 This function disables the TWI peripheral completely
 and therefore disconnects the device from the bus.
+
+## License
+
+![GPLv3 Logo](https://www.gnu.org/graphics/gplv3-127x51.png)
+
+The source code of `I2C-Master-lib` is published under the GNU GPLv3, see LICENSE for details.
+
+
